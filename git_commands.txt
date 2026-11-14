@@ -1,0 +1,55 @@
+# Git Commands Used in Assignment
+
+1. `mkdir GitAssignment`
+   - Creates a new project directory.
+
+2. `cd GitAssignment`
+   - Navigates into the project directory.
+
+3. `git init -b main`
+   - Initializes a new Git repository with the main branch.
+
+4. `git status`
+   - Displays the current state of the working directory.
+
+5. `git add .`
+   - Adds all eligible changes to the staging area.
+
+6. `git add index.html`
+   - Adds the specified file to the staging area.
+
+7. `git commit -m "First Commit""`
+   - Saves staged changes as a new commit.
+
+8. `git branch feature`
+   - Creates a new branch named feature.
+
+9. `git switch feature`
+   - Switches to the feature branch.
+
+10. `git switch main`
+    - Switches back to the main branch.
+
+11. `git merge feature`
+    - Merges feature branch changes into main.
+
+12. `git log --oneline --graph --all --decorate`
+    - Displays commit history, branches and merge relationships.
+
+13. `git revert --no-edit HEAD`
+    - Creates a new commit that reverses the latest commit.
+
+14. `git remote add origin https://github.com/yashpatel-999/GitWorkflow.git`
+    - Connects the local repository to the GitHub repository.
+
+15. `git push -u origin main`
+    - Pushes the main branch to GitHub and sets its upstream.
+
+16. `git push -u origin feature`
+    - Pushes the feature branch to GitHub.
+
+17. `git remote -v`
+    - Displays configured remote repository URLs.
+
+18. `git branch -a`
+    - Displays local and remote branches.
